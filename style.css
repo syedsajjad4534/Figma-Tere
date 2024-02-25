@@ -15,7 +15,7 @@
     width: 100%;
     height: 174px;
     display: flex;
-    padding: 100px 50px 0 50px;
+    padding: 50px 50px 80px 50px;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -57,7 +57,7 @@
 .container{
     width: 100%;
     display: flex;
-    gap: 20px;
+    padding: 50px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -306,8 +306,11 @@
     /* ------- end ------- */
     
 .footer{
-    width: 1440px;
+    width: 100%;
     height: 553px;
+    display: flex;
+    justify-content: center;
+    
 }
 .footer-section{
     width: 1440px;
